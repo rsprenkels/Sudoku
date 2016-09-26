@@ -20,6 +20,7 @@ class SudokuSolver {
 			 [0,0,0,4,0,0,0,0,0],
 			 [0,0,4,0,3,7,1,0,0],
 			 [3,6,0,0,1,9,0,5,2]]
+		println "easy"
 		easy.show()
 
 		result = easy.solve()
@@ -37,6 +38,7 @@ class SudokuSolver {
 			 [9,0,0,0,7,0,0,0,6],
 			 [0,7,0,6,0,3,0,9,0],
 			 [0,0,4,2,0,9,8,0,0]]
+		println "hard"
 		hard.show()
 		result = hard.solve()
 		result.show()
